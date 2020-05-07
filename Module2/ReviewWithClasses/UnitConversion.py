@@ -91,12 +91,12 @@ class UnitConversion:
         return [self.__inches, self.__feet, self.__yards, self.__miles, self.__centimeters]
 
     def __str__(self):
-        """ With this type of library I typically just put a few print methods...
+        """ With this type of library I typically just need the getters as "prints"...
             technically I just make the functions in a library and call them
             (functions are first-class citizens)....but for the sake of completion:
             this is the Python equivalent of ".toString"
             Again - another reason for a dict
-              (but again I would typically have to put seperate prints)
+              (but again I would typically just use the getters)
 
             :return String: A formatted string of units & conversions
         """
