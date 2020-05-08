@@ -1,0 +1,6 @@
+{
+  "manufacture": "goodyear",
+  "elasticity": 3,
+  "resistance": ["heat", "weather"],
+  "radius": 5.2
+}
