@@ -1,4 +1,4 @@
-from multiprocessing import Pool
+import multiprocessing
 
 def get_mass_and_temp():
     """
@@ -23,20 +23,22 @@ def check_energy(measurements):
     print(f"The energy was {4.186 * measurements['mass'] * measurements['temp']}")
 
 
-water = []
-exit_flag = True
+if __name__ == "__main__":
+    water = []
+    exit_flag = True
 
-while exit_flag:
-    water.append(get_mass_and_temp())
+    while exit_flag:
+        water.append(get_mass_and_temp())
 
-    user_ans = input("Do you have more information on water & mass? (Y or N)")
-    if user_ans[0] == 'n':
-        exit_flag = False
-'''FIX LATER - This without name doesn't work but name not working with Windows 10....try subsystem?'''
-pool = Pool()
-# map is basically the same as any functional use of map: map elements to given function
-result = pool.map(check_energy, water)
+        user_ans = input("Do you have more information on water & mass? (Y or N)")
+        if user_ans[0] == 'n':
+            exit_flag = False
 
-# Always close your processes (and typically you join them back too)
-pool.close()
-pool.join()
+    # See ppt on Pool vs. Process (we are using Pool not to break things)
+    pool = multiprocessing.Pool(multiprocessing.cpu_count())
+    # map is basically the same as any functional use of map: map elements to given function
+    result = pool.map(check_energy, water)
+
+    # Always close your processes (and typically you join them back too)
+    pool.close()
+    pool.join()
