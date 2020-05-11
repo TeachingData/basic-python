@@ -9,5 +9,6 @@
  1. Starts with threading using a function
      - [TempChange.py](./TempChange.py)   
  2. Moves to threading using an Object
- 3. Parallel operations using similar steps
+ 3. Parallel operations using Pool (over Process)
+     - [TempChangeWithPool.py](./TempChangeWithPool.py)
  4. A minor networked async example
