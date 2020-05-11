@@ -28,6 +28,6 @@ Then print all at once or when you open a different program.
 
 I will talk about the workaround in class but its not required or included here.
 """
-
+### Could add an if __name__ == 'main' here but I don't want this to run on import
 print("Starting new daily Temp Log")
 threading.Thread(target=check_energy).start()
