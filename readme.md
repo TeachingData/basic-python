@@ -16,9 +16,9 @@ applications of programming.
 > So the math concepts only received a cursory review, with the course
 > focused on application.
 
-Do to this, the class will move very quickly through the first chapters in
+Due to this, the class will move very quickly through the first chapters in
 the workbook and the solutions provided are too elementary. They also
-required a small update in a few places - as is to be expected after 10+ years.
+required a small update in a few places (yeah! type hints) - as is to be expected after 10+ years.
 
 ## License
 
