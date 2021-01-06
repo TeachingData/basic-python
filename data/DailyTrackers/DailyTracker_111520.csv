@@ -1,0 +1,36 @@
+﻿date,day,ordernum,Description,Services,Member,New,Price,pickups,laborhours,laborgoal,salesgoal,membergoal
+11/15/2020,1,152579569,Diag only (declined payment),diag,FALSE,FALSE,0,3,554,306,450,3
+11/15/2020,1,152581294,Malicious Extensions removed,"diag,software repair,software install",TRUE,FALSE,0,3,554,306,450,3
+11/15/2020,1,152586930,Diag only (declined payment),diag,FALSE,FALSE,0,3,554,306,450,3
+11/15/2020,1,152576689,Malware removal,"diag,software install,software repair,data backup",TRUE,FALSE,0,3,554,306,450,3
+11/15/2020,1,152577033,OS Update problem,"diag,software install,software repair",TRUE,FALSE,0,3,554,306,450,3
+11/15/2020,1,152577568,OS Update problem,"diag,software install,software repair",TRUE,FALSE,0,3,554,306,450,3
+11/15/2020,1,152578814,Malware removal,"diag,software install,software repair,data backup",TRUE,TRUE,150,3,554,306,450,3
+11/15/2020,1,152578280,Hardware Replacement,no service,FALSE,FALSE,85,3,554,306,450,3
+11/15/2020,1,152585119,Screen Protector install,screen protector,FALSE,FALSE,10,3,554,306,450,3
+11/15/2020,1,152588190,Malicious Extensions removed,"diag,software install,software repair",TRUE,FALSE,0,3,554,306,450,3
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,

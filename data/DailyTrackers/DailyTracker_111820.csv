@@ -1,0 +1,9 @@
+﻿date,day,ordernum,Description,Services,Member,New,Price,pickups,laborhours,laborgoal,salesgoal,membergoal
+11/18/2020,4,152641933,Malware Removal,"diag,software install,software repair,data backup",TRUE,TRUE,150,5,749,306,450,3
+11/18/2020,4,152645248,Malware Removal,"diag,software install,software repair,data backup",TRUE,FALSE,0,5,749,306,450,3
+11/18/2020,4,152644516,Malware Removal,"diag,software install,software repair,data backup",TRUE,TRUE,150,5,749,306,450,3
+11/18/2020,4,152646181,OS Update Issue,"diag,software install,software repair",TRUE,FALSE,0,5,749,306,450,3
+11/18/2020,4,152646668,Diag only (declined repair),diag,FALSE,FALSE,0,5,749,306,450,3
+11/18/2020,4,152650987,Update and Malware issues,"diag,software install,software repair,data backup",TRUE,TRUE,150,5,749,306,450,3
+11/18/2020,4,152641534,Malicious Extensions and File copy,"diag,software install,software repair,data backup",TRUE,FALSE,0,5,749,306,450,3
+11/18/2020,4,152649767,Scareware,"diag,software install,software repair",TRUE,FALSE,0,5,749,306,450,3
