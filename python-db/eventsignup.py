@@ -47,11 +47,13 @@ for row in c.execute("select event_id, event_descript, event_date from events wh
                 events.append((attend_id, row[0], user_id))
 
 insert = "INSERT INTO attending(attendance_id,event_id,comp_id) VALUES ("
+### Okay, technically you can just add 3 ? (we will always have 3) but to show a dynamic method:
+
 #for i in events: # build our insert string (add ? for each & then slice it)
 #    insert = insert + "?,"
 #insert = insert[:-1] + ");"
 
-#### or better: I love you join & replicant
+#### or better: I love you join & string repeat
 insert += ", ".join("?" * len(events)) + ");"
 
 print(insert)
