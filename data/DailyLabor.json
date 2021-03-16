@@ -1,0 +1,1244 @@
+[
+  {
+   "date": "10/23/2020",
+   "day": "Fri",
+   "sales": [39.99, 29.99, 84.99],
+   "orders": {
+     "212384687": {
+       "services": [
+         "diag", "software install",
+         "software repair", "data backup"
+         ],
+         "price": 0.0,
+         "description": "computer repair and setup",
+         "new": false,
+         "member": true
+     },
+     "212385179": {
+       "services": [
+         "diag", "software install",
+         "software repair"
+         ],
+         "price": 0.0,
+         "description": "tablet repair and update installation",
+         "new": false,
+         "member": true
+     },
+     "212388140": {
+       "services": [
+         "diag", "hardware repair"
+         ],
+         "price": 39.99,
+         "description": "laptop fan installation",
+         "new": false,
+         "member": false
+     },
+     "212386599": {
+       "services": [
+         "screen repair"
+         ],
+         "price": 29.99,
+         "description": "cell screen repair",
+         "new": false,
+         "member": false
+     },
+     "212385945": {
+       "services": [
+         "no service"
+         ],
+         "price": 85.0,
+         "description": "layway payment",
+         "new": false,
+         "member": false
+     },
+     "2122383865": {
+       "services": [
+         "diag", "software install",
+         "software repair"
+         ],
+         "price": 0.0,
+         "description": "Email configuration issue",
+         "new": false,
+         "member": true
+     },
+     "212384169": {
+       "services": [
+         "diag", "software installation", "password reset"
+         ],
+         "price": 0.0,
+         "description": "AOL mail issue",
+         "new": false,
+         "member": true
+     },
+     "212384401": {
+       "services": [
+         "diag"
+         ],
+         "price": 0.0,
+         "description": "Iphone broken screen, declined payment",
+         "new": false,
+         "member": false
+     },
+     "212388640": {
+       "services": [
+         "diag", "software repair", "software install"
+         ],
+         "price": 0.0,
+         "description": "Wifi card failure, installed external (usb) wifi",
+         "new": false,
+         "member": true
+     }
+   },
+   "pickups": 2,
+   "labor_goal": 216,
+   "new_member_goal": 2,
+   "sales_goal": 450
+},
+{
+   "date": "10/24/2020",
+   "day": "Sat",
+   "sales": [200.0, 49.99],
+   "orders": {
+     "212404355": {
+       "services": [
+         "diag", "software install",
+         "software repair"
+         ],
+         "price": 0.0,
+         "description": "malware issue",
+         "new": false,
+         "member": true
+     },
+     "212405313": {
+       "services": [
+         "diag", "software install",
+         "software repair", "data backup"
+         ],
+         "price": 0.0,
+         "description": "malware and update issues",
+         "new": false,
+         "member": true
+     },
+     "212409011": {
+       "services": [
+         "diag", "software install",
+         "software repair", "data backup"
+         ],
+         "price": 0.0,
+         "description": "remote in and software update issues",
+         "new": false,
+         "member": true
+     },
+     "212411112": {
+       "services": [
+         "no service"
+         ],
+         "price": 200.0,
+         "description": "phone purchase",
+         "new": false,
+         "member": false
+     },
+     "212411123": {
+       "services": [
+         "no service"
+         ],
+         "price": 50.0,
+         "description": "layway payment",
+         "new": false,
+         "member": true
+     },
+     "212404295": {
+       "services": [
+         "diag", "password reset"
+       ],
+         "price": 0.0,
+         "description": "gmail two-factor issue",
+         "new": false,
+         "member": true
+     },
+     "212404873": {
+       "services": [
+         "new setup"
+         ],
+         "price": 0.0,
+         "description": "setup smartwatch",
+         "new": false,
+         "member": true
+     },
+     "212409498": {
+       "services": [
+         "screen protector"
+         ],
+         "price": 0.0,
+         "description": "installed samsung screen protector",
+         "new": false,
+         "member": true
+     },
+     "212413687": {
+       "services": [
+         "diag"
+         ],
+         "price": 0.0,
+         "description": "moto screen broken, client declined price",
+         "new": false,
+         "member": false
+     }
+   },
+   "pickups": 6,
+   "labor_goal": 252,
+   "new_member_goal": 3,
+   "sales_goal": 450
+},
+{
+  "date": "10/25/2020",
+  "day": "Sun",
+  "sales": [29.0, 99.0, 99.0, 99.98, 69.0, 99.0],
+  "orders": {
+    "211152380": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 99.0,
+        "description": "new computer setup with backup from old",
+        "new": false,
+        "member": true
+    },
+    "211155797": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "new computer setup without backup",
+        "new": false,
+        "member": true
+    },
+    "211154645": {
+      "services": [
+        "password reset"
+        ],
+        "price": 0.0,
+        "description": "standard gmail pass reset",
+        "new": false,
+        "member": true
+    },
+    "211157639": {
+      "services": [
+        "device replacement"
+        ],
+        "price": 29.0,
+        "description": "headphones failed, replaced",
+        "new": false,
+        "member": false
+    },
+    "211162197": {
+      "services": [
+        "device replacement"
+        ],
+        "price": 69.0,
+        "description": "wifi headphones failed, replaced",
+        "new": false,
+        "member": false
+    },
+    "211164627": {
+      "services": [
+        "data backup"
+        ],
+        "price": 99.0,
+        "description": "copied data from old tablet to new",
+        "new": false,
+        "member": false
+    },
+    "211150125": {
+      "services": [
+        "diag", "software install"
+        ],
+        "price": 0.0,
+        "description": "email not working - reinstalled client",
+        "new": false,
+        "member": true
+    },
+    "211151215": {
+      "services": [
+        "diag", "software repair"
+        ],
+        "price": 0.0,
+        "description": "computer not booting; update stuck - restarted",
+        "new": false,
+        "member": true
+    },
+    "211153762": {
+      "services": [
+        "diag"
+        ],
+        "price": 0.0,
+        "description": "LG phone, logic board; client declined repair",
+        "new": false,
+        "member": false
+    },
+    "211159472": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "malicious extensions on Chrome; removed and installed uBlock",
+        "new": false,
+        "member": true
+    },
+    "211158996": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "removed malicious extensions and installed uBlock",
+        "new": false,
+        "member": true
+    }
+  },
+  "pickups": 6,
+  "labor_goal": 288,
+  "new_member_goal": 3,
+  "sales_goal": 450
+},
+{
+  "date": "10/26/2020",
+  "day": "Mon",
+  "sales": [39.99, 99.98, 150.0],
+  "orders": {
+    "211156868": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 0.0,
+        "description": "new computer setup with backup from old",
+        "new": false,
+        "member": true
+    },
+    "211169130": {
+      "services": [
+        "diag", "software install",
+        "software repair", "password reset"
+        ],
+        "price": 0.0,
+        "description": "restore and resetup Iphone",
+        "new": false,
+        "member": true
+    },
+    "211170339": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 150.0,
+        "description": "new computer setup with backup from old",
+        "new": true,
+        "member": true
+    },
+    "211174779": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 99.98,
+        "description": "new computer setup with backup from old",
+        "new": false,
+        "member": true
+    },
+    "211167971": {
+      "services": [
+        "screen repair"
+        ],
+        "price": 39.99,
+        "description": "repaired LG screen",
+        "new": false,
+        "member": true
+    },
+    "211172830": {
+      "services": [
+        "diag", "software install",
+        "software repair", "password reset"
+        ],
+        "price": 0.0,
+        "description": "restored Iphone",
+        "new": false,
+        "member": true
+    },
+    "211175801": {
+      "services": [
+        "diag", "password reset"
+        ],
+        "price": 0.0,
+        "description": "email not working; reset email password",
+        "new": false,
+        "member": true
+    }
+  },
+  "pickups": 2,
+  "labor_goal": 306,
+  "new_member_goal": 3,
+  "sales_goal": 300
+},
+{
+  "date": "10/28/2020",
+  "day": "Wed",
+  "sales": [99.99, 29.99, 150.0],
+  "orders": {
+    "211108765": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "malware issues",
+        "new": false,
+        "member": true
+    },
+    "211120792": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 0.0,
+        "description": "new computer setup with backup from old",
+        "new": false,
+        "member": true
+    },
+    "211214449": {
+      "services": [
+        "device replacement"
+        ],
+        "price": 99.99,
+        "description": "new LG due to damaged old",
+        "new": false,
+        "member": true
+    },
+    "211217069": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 0.0,
+        "description": "malware issues requiring backup and restore",
+        "new": false,
+        "member": true
+    },
+    "211218452": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "malicious extensions and malware removed, uBlock installed",
+        "new": false,
+        "member": true
+    },
+    "211199902": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 150.0,
+        "description": "malware issues requiring backup",
+        "new": true,
+        "member": true
+    },
+    "211127573": {
+      "services": [
+        "screen repair"
+        ],
+        "price": 29.99,
+        "description": "replaced Moto Screen",
+        "new": false,
+        "member": false
+    },
+    "211209169": {
+      "services": [
+        "diag", "password reset"
+        ],
+        "price": 0.0,
+        "description": "removed password from windows computer",
+        "new": false,
+        "member": true
+    },
+    "211209863": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "malicious extensions removed; uBlock installed",
+        "new": false,
+        "member": true
+    },
+    "211211143": {
+      "services": [
+        "diag"
+        ],
+        "price": 0.0,
+        "description": "logic board issue Iphone; client declined price",
+        "new": false,
+        "member": false
+    },
+    "211212791": {
+      "services": [
+        "diag", "password reset"
+        ],
+        "price": 0.0,
+        "description": "AppleID pass reset through client device",
+        "new": false,
+        "member": true
+    },
+    "211221394": {
+      "services": [
+        "diag"
+        ],
+        "price": 0.0,
+        "description": "battery and screen damage samsung; client declined repair",
+        "new": false,
+        "member": false
+    }
+  },
+  "pickups": 5,
+  "labor_goal": 306,
+  "new_member_goal": 3,
+  "sales_goal": 450
+},
+{
+  "date": "10/30/2020",
+  "day": "Fri",
+  "sales": [],
+  "orders": {
+    "211245109": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 0.0,
+        "description": "malware issues with remote-in requiring restore",
+        "new": false,
+        "member": true
+    },
+    "211244779": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "malware issues and update issues",
+        "new": false,
+        "member": true
+    },
+    "211244686": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "tune-up and updates",
+        "new": false,
+        "member": true
+    },
+    "211245909": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 0.0,
+        "description": "new setup with backup from old",
+        "new": false,
+        "member": true
+    },
+    "211245681": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 0.0,
+        "description": "malware issues requiring restore",
+        "new": false,
+        "member": true
+    },
+    "211248264": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 0.0,
+        "description": "new setup with backup from old",
+        "new": false,
+        "member": true
+    },
+    "211255341": {
+      "services": [
+        "data backup"
+        ],
+        "price": 0.0,
+        "description": "backup of client data to external HDD",
+        "new": false,
+        "member": true
+    },
+    "211244573": {
+      "services": [
+        "diag"
+        ],
+        "price": 0.0,
+        "description": "no power; power port issue; client declined repair",
+        "new": false,
+        "member": false
+    },
+    "211247710": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "malicious extensions removed",
+        "new": false,
+        "member": true
+    },
+    "211249438": {
+      "services": [
+        "diag", "data backup"
+        ],
+        "price": 0.0,
+        "description": "internal HDD failed; copied data to external HDD",
+        "new": false,
+        "member": true
+    },
+    "211254142": {
+      "services": [
+        "diag", "software repair"
+        ],
+        "price": 0.0,
+        "description": "wifi not working; turned off airplane mode",
+        "new": false,
+        "member": true
+    }
+  },
+  "pickups": 4,
+  "labor_goal": 260,
+  "new_member_goal": 2,
+  "sales_goal": 150
+},
+{
+  "date": "11/01/2020",
+  "day": "Sun",
+  "sales": [150.0, 150.0],
+  "orders": {
+    "222200101": {
+      "services": [
+        "no service"
+        ],
+        "price": 150.0,
+        "description": "membership renewal",
+        "new": true,
+        "member": true
+    },
+    "222287150": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "malware issues and malicious extensions",
+        "new": false,
+        "member": true
+    },
+    "22287799": {
+      "services": [
+        "diag"
+        ],
+        "price": 0.0,
+        "description": "Tablet logic board errors; repair cost more than new",
+        "new": false,
+        "member": false
+    },
+    "22286883": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 150.0,
+        "description": "new setup and data backup from old",
+        "new": true,
+        "member": true
+    },
+    "22289963": {
+      "services": [
+        "screen protector"
+        ],
+        "price": 0.0,
+        "description": "screen protector smart watch",
+        "new": false,
+        "member": true
+    },
+    "22290699": {
+      "services": [
+        "lesson"
+        ],
+        "price": 0.0,
+        "description": "new macbook; client had questions after changing from Win",
+        "new": false,
+        "member": true
+    }
+  },
+  "pickups": 1,
+  "labor_goal": 240,
+  "new_member_goal": 2,
+  "sales_goal": 300
+},
+{
+  "date": "11/02/2020",
+  "day": "Mon",
+  "sales": [49.99, 49.00],
+  "orders": {
+    "222307879": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 0.0,
+        "description": "New setup with backup from old",
+        "new": false,
+        "member": true
+    },
+    "222307976": {
+      "services": [
+        "diag", "data backup",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "tablet restore and setup",
+        "new": false,
+        "member": true
+    },
+    "222308517": {
+      "services": [
+        "battery replacement"
+        ],
+        "price": 49.99,
+        "description": "battery dead on Iphone",
+        "new": false,
+        "member": false
+    },
+    "222310218": {
+      "services": [
+        "diag", "password reset"
+        ],
+        "price": 49.99,
+        "description": "reset password on kindle device",
+        "new": false,
+        "member": false
+    },
+    "222305575": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "removed malicious extensions and installed uBlock",
+        "new": false,
+        "member": true
+    },
+    "222287150": {
+      "services": [
+        "diag", "software install",
+        "software repair", "password reset"
+        ],
+        "price": 0.0,
+        "description": "update issue and password reset of laptop",
+        "new": false,
+        "member": true
+    }
+  },
+  "pickups": 4,
+  "labor_goal": 240,
+  "new_member_goal": 2,
+  "sales_goal": 300
+},
+{
+  "date": "11/04/2020",
+  "day": "Wed",
+  "sales": [150.0, 150.0, 29.0],
+  "orders": {
+    "222352227": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 0.0,
+        "description": "Client attempted restore; fix failed Win restore",
+        "new": false,
+        "member": true
+    },
+    "222350984": {
+      "services": [
+        "screen repair"
+        ],
+        "price": 29.0,
+        "description": "scratch screen, repaired",
+        "new": false,
+        "member": false
+    },
+    "222353375": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 150.0,
+        "description": "Failed windows update, stuck in boot loop",
+        "new": true,
+        "member": true
+    },
+    "222354025": {
+      "services": [
+        "diag"
+        ],
+        "price": 0.0,
+        "description": "Iphone sound not working; still under mfg",
+        "new": false,
+        "member": false
+    },
+    "222178583": {
+      "services": [
+        "lesson"
+        ],
+        "price": 0.0,
+        "description": "Client needed help understanding Chrome",
+        "new": false,
+        "member": true
+    },
+    "222439721": {
+      "services": [
+        "diag", "software repair"
+        ],
+        "price": 0.0,
+        "description": "Client could not read text; set zoom in chrome and Win",
+        "new": false,
+        "member": true
+    },
+    "222354757": {
+      "services": [
+        "diag"
+        ],
+        "price": 0.0,
+        "description": "Client could not access email; Explained AOL workaround",
+        "new": false,
+        "member": true
+    },
+    "222354848": {
+      "services": [
+        "diag", "software install"
+        ],
+        "price": 0.0,
+        "description": "Chrome not working; never installed; installed Chrome",
+        "new": false,
+        "member": true
+    }
+  },
+  "pickups": 1,
+  "labor_goal": 252,
+  "new_member_goal": 3,
+  "sales_goal": 450
+},
+{
+  "date": "11/07/2020",
+  "day": "Sat",
+  "sales": [200.0, 49.99],
+  "orders": {
+    "222354355": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "Games not working; bad Origin data file; removed/restored file",
+        "new": false,
+        "member": true
+    },
+    "22233988": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 0.0,
+        "description": "failed restore; backup and restored laptop",
+        "new": false,
+        "member": true
+    },
+    "222351001": {
+      "services": [
+        "no service"
+        ],
+        "price": 200.0,
+        "description": "layway payment",
+        "new": false,
+        "member": true
+    },
+    "222351002": {
+      "services": [
+        "diag", "password reset"
+        ],
+        "price": 49.0,
+        "description": "reset Google password",
+        "new": false,
+        "member": false
+    }
+  },
+  "pickups": 12,
+  "labor_goal": 252,
+  "new_member_goal": 1,
+  "sales_goal": 150
+},
+{
+  "date": "11/09/2020",
+  "day": "Mon",
+  "sales": [49.99, 99.99, 150.0],
+  "orders": {
+    "222365074": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 0.0,
+        "description": "New setup with Data backup",
+        "new": false,
+        "member": true
+    },
+    "222366724": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 99.99,
+        "description": "restored tablet",
+        "new": false,
+        "member": false
+    },
+    "222374450": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 150.0,
+        "description": "Client hacked, restore and resetup device",
+        "new": true,
+        "member": true
+    },
+    "222375767": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 0.0,
+        "description": "New setup with Data backup",
+        "new": false,
+        "member": true
+    },
+    "222365996": {
+      "services": [
+        "diag"
+        ],
+        "price": 0.0,
+        "description": "phone logic board issue, repair greater than new cost",
+        "new": false,
+        "member": false
+    },
+    "222367549": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "Malicious extentions removed and uBlock installed",
+        "new": false,
+        "member": true
+    },
+    "222367889": {
+      "services": [
+        "diag"
+        ],
+        "price": 0.0,
+        "description": "Iphone logic board issues, client declined price",
+        "new": false,
+        "member": false
+    },
+    "222371736": {
+      "services": [
+        "diag", "password reset"
+        ],
+        "price": 49.99,
+        "description": "reset AppleId password",
+        "new": false,
+        "member": false
+    },
+    "222373731": {
+      "services": [
+        "data backup", "password reset"
+        ],
+        "price": 0.0,
+        "description": "Reset Google password and backup files to GDrive",
+        "new": false,
+        "member": true
+    }
+  },
+  "pickups": 3,
+  "labor_goal": 306,
+  "new_member_goal": 2,
+  "sales_goal": 300
+},
+{
+  "date": "11/11/2020",
+  "day": "Wed",
+  "sales": [150.0, 150.0, 249.99],
+  "orders": {
+    "222388211": {
+      "services": [
+        "diag"
+        ],
+        "price": 0.0,
+        "description": "Screen damage Iphone, client declined payment",
+        "new": false,
+        "member": false
+    },
+    "222387776": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 150.0,
+        "description": "Client attempted restore after hack, backup and restore laptop",
+        "new": true,
+        "member": true
+    },
+    "222388394": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 150.0,
+        "description": "malware and remote-in requiring data backup",
+        "new": true,
+        "member": true
+    },
+    "222390003": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 0.0,
+        "description": "New setup with Data backup",
+        "new": false,
+        "member": true
+    },
+    "222394034": {
+      "services": [
+        "hardware repair"
+        ],
+        "price": 249.99,
+        "description": "multisystem failure of device, replaced parts",
+        "new": false,
+        "member": false
+    },
+    "222388265": {
+      "services": [
+        "data backup"
+        ],
+        "price": 0.0,
+        "description": "Data backup to external HDD",
+        "new": false,
+        "member": true
+    },
+    "222390681": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "Malicious extensions removed and uBlock installed",
+        "new": false,
+        "member": true
+    }
+  },
+  "pickups": 6,
+  "labor_goal": 252,
+  "new_member_goal": 3,
+  "sales_goal": 450
+},
+{
+  "date": "11/12/2020",
+  "day": "Thurs",
+  "sales": [150.0, 150.0, 183.0, 49.99],
+  "orders": {
+    "222511205": {
+      "services": [
+        "data backup"
+        ],
+        "price": 0.0,
+        "description": "copied data from tablet to laptop",
+        "new": false,
+        "member": true
+    },
+    "222509117": {
+      "services": [
+        "diag", "software install",
+        "software repair", "data backup"
+        ],
+        "price": 150.0,
+        "description": "Malware and data issues",
+        "new": true,
+        "member": true
+    },
+    "222509001": {
+      "services": [
+        "battery replacement"
+        ],
+        "price": 49.99,
+        "description": "replaced LG battery",
+        "new": false,
+        "member": false
+    },
+    "222509007": {
+      "services": [
+        "diag"
+        ],
+        "price": 0.0,
+        "description": "front and back display cracked, client declined price",
+        "new": false,
+        "member": false
+    },
+    "222509012": {
+      "services": [
+        "no service"
+        ],
+        "price": 150.0,
+        "description": "renewal of membership",
+        "new": true,
+        "member": true
+    },
+    "222509018": {
+      "services": [
+        "diag"
+        ],
+        "price": 0.0,
+        "description": "The phone was in two pieces: repair declined",
+        "new": false,
+        "member": false
+    },
+    "222510446": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "Malware removal",
+        "new": false,
+        "member": true
+    },
+    "222510422": {
+      "services": [
+        "diag", "software install",
+        "password reset"
+        ],
+        "price": 0.0,
+        "description": "Malicious extensions removed and Google password reset",
+        "new": false,
+        "member": true
+    },
+    "222511784": {
+      "services": [
+        "diag", "software install",
+        "software repair"
+        ],
+        "price": 0.0,
+        "description": "Malware removal",
+        "new": false,
+        "member": true
+    },
+    "222510909": {
+      "services": [
+        "diag", "software repair"
+        ],
+        "price": 0.0,
+        "description": "AOL mail app not working, setup shortcut to AOL website",
+        "new": false,
+        "member": true
+    }
+  },
+  "pickups": 3,
+  "labor_goal": 288,
+  "new_member_goal": 3,
+  "sales_goal": 450
+},
+{
+  "date": "11/13/2020",
+  "day": "Fri",
+  "sales": [150.0],
+  "orders": {
+    "2225136731": {
+      "services": [
+        "software install", "software repair",
+        "diag", "data backup"
+        ],
+        "price": 150.0,
+        "description": "Avast and other malware installed with remote-ins",
+        "new": true,
+        "member": true
+    },
+    "2225137759": {
+      "services": [
+        "diag", "data backup"
+        ],
+        "price": 0.0,
+        "description": "Device unrepairable; data pulled from internal HDD to external",
+        "new": false,
+        "member": true
+    },
+    "2225144772": {
+      "services": [
+        "hardware repair"
+        ],
+        "price": 0.0,
+        "description": "problem was power cord; gave an extra one",
+        "new": false,
+        "member": true
+    },
+    "2225135282": {
+      "services": [
+        "software install", "software repair",
+        "diag", "data backup"
+        ],
+        "price": 0.0,
+        "description": "Windows 8 to 10 upgrade",
+        "new": false,
+        "member": true
+    },
+    "2225137206": {
+      "services": [
+        "diag"
+        ],
+        "price": 0.0,
+        "description": "Tablet was U shaped due to damage - repair declined",
+        "new": false,
+        "member": true
+    },
+    "2225138209": {
+      "services": [
+        "diag"
+        ],
+        "price": 0.0,
+        "description": "Client ran over device - repair declined",
+        "new": false,
+        "member": false
+    }
+  },
+  "pickups": 5,
+  "labor_goal": 280,
+  "new_member_goal": 1,
+  "sales_goal": 150
+}
+]
