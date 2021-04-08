@@ -1,0 +1,36 @@
+All of these are various articles from wikipedia about food. We will clean it with regular expressions.
+
+Carne asada is a dish of grilled and sliced beef, usually skirt steak, sirloin steak, tenderloin steak, or rib steak. It is usually 
+involves cooking with a marinade and some searing to impart a charred flavor. Carne asada can be served as a main dish or as one of 
+the ingredients in other dishes.
+
+The term carne asada translates literally to "grilled meat"; the English-style dish "roast beef" is called by its English name 
+in Spanish, so that each dish has a distinctive name. The term carne asada is used in Latin America and refers to the style of 
+grilled meat in those countries. In South America, the term used for grilled meat is asado and it has a different style and 
+preparation.
+
+A pancake (or hotcake, griddlecake, or flapjack, not to be confused with oat bar flapjacks) is a flat cake, often thin and round, 
+prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying 
+pan, often frying with oil or butter. Archaeological evidence suggests that pancakes were probably the earliest and most widespread 
+cereal food eaten in prehistoric societies.
+
+The pancake's shape and structure varies worldwide. In the United Kingdom, pancakes are often unleavened and resemble a crepe. 
+In North America, a leavening agent is used (typically baking powder) creating a thick fluffy pancake. A crepe is a thin Breton 
+pancake of French origin cooked on one or both sides in a special pan or crepe maker to achieve a lacelike network of fine bubbles. 
+A well-known variation originating from southeast Europe is a palacinke, a thin moist pancake fried on both sides and filled with 
+jam, cream cheese, chocolate, or ground walnuts, but many other fillings—sweet or savoury—can also be used.
+
+When potato is used as a major portion of the batter, the result is a potato pancake. Commercially prepared pancake mixes are 
+available in some countries. When buttermilk is used in place of or in addition to milk, the pancake develops a tart flavor and 
+becomes known as a buttermilk pancake, which is common in Scotland and the US. Buckwheat flour can be used in a pancake batter, 
+making for a type of buckwheat pancake, a category that includes Blini, Kaletez, Ploye, and Memil-buchimgae.
+
+Pancakes may be served at any time of the day or year with a variety of toppings or fillings, but they have developed associations 
+with particular times and toppings in different regions. In North America, they are typically considered a breakfast food and serve 
+a similar function to waffles. In Britain and the Commonwealth, they are associated with Shrove Tuesday, commonly known as "Pancake 
+Day", when, historically, perishable ingredients had to be used up before the fasting period of Lent.
+
+The name of the dish comes from the Middle High German kugel meaning 'sphere, globe, ball' thus the Yiddish name likely originated 
+as a reference to the round, puffed-up shape of the original dishes (compare to German Gugelhupf—a type of ring-shaped cake). 
+Nowadays, however, baking kugels often requires the use of square pans providing the modern square shape but retaining the 
+original name.
