@@ -6,7 +6,7 @@
 - There are also self made examples which are indicted in each specific program.
 
 #### Note on Examples
-This is also used with Junior-level (undergrad) Data analytic courses.
+This is also used with Junior & Senior level (undergrad) Data analytic courses.
 The idea is that the students already have a general understanding
 of programming (with Java & C++) but have not encountered data analytic
 applications of programming.
