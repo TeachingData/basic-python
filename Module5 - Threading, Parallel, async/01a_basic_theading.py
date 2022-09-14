@@ -4,12 +4,12 @@ import time
 import sys
 # this will handle and run a few write threads
 
-# v2 - changed sleep thread to write to a file thread
-# Each file is seperate per person (persons_name.txt)
+# v3 - changed sleep thread to write to a file thread and now its appending
+# single name file with each person on seperate line
 def sleep_thread(name):
     logging.info(f"Thread {name}: starting")
 
-    with open(f"{name}.txt",'w',encoding = 'utf-8') as personfile:
+    with open("names.txt",'a',encoding = 'utf-8') as personfile:
         personfile.write(f"name: {name}\nfor threading\n")
 
     logging.info(f"Thread {name}: finished")
