@@ -7,6 +7,7 @@
  ><br> *async* = actually spawns a new coroutine
  
  1. Starts with threading using a function
+     - [01_basic_threading.py](./01_basic_threading.py) shows how to import and run a very small sleep thread generator
      - [TempChange.py](./TempChange.py) (this is just an example of the structure)
      - A realworld example will be added later
  2. Moves to threading using an Object
