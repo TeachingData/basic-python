@@ -2,7 +2,7 @@
  apply. In all coding build small (tests) to 
  complex.**
  
- >*Threading* = no speed gain (one this code), single CPU process of single CPU, used with "waiting"
+ >*Threading* = not always a speed gain, due to GPL its still: single CPU process of single CPU, used with "waiting" or backend processes with little user interruption it is still useful (and may increase speed in those cases)
  ><br> *Parallel* = speed gain, multi-CPU processes
  ><br> *async* = actually spawns a new coroutine
  
