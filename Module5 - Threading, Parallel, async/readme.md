@@ -8,6 +8,7 @@
  
  1. Starts with threading using a function
      - [01_basic_threading.py](./01_basic_threading.py) shows how to import and run a very small sleep thread generator
+     - [01a_basic_threading.py](./01a_basic_threading.py) basically same as 01 but shows writting (v2) and appending (v3) to a file(s)
      - [TempChange.py](./TempChange.py) (this is just an example of the structure)
      - A realworld example will be added later
  2. Moves to threading using an Object
