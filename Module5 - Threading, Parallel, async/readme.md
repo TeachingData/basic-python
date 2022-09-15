@@ -9,6 +9,7 @@
  1. Starts with threading using a function
      - [01_basic_threading.py](./01_basic_threading.py) shows how to import and run a very small sleep thread generator
      - [01a_basic_threading.py](./01a_basic_threading.py) basically same as 01 but shows writting (v2) and appending (v3) to a file(s)
+     - [01b_basic_threading.py](./01b_basic_threading.py) so here we added a read then write process (much like a chatroom) but not correctly. We need to add a mediator class/function to handle our other threads and ensure everyone can read/write correctly. It is meant to fail as an example for students.
      - [TempChange.py](./TempChange.py) (this is just an example of the structure)
      - A realworld example will be added later
  2. Moves to threading using an Object
