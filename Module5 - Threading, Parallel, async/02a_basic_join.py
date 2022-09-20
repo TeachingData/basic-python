@@ -23,6 +23,7 @@ def wait_function(name):
 
 
 if __name__ == "__main__":
+    # Student task - change how this is handling I/O to make this work better with threading (remove the join)
     for n in sys.argv[1:]:
         prth = threading.Thread(target=readwrite_function, args=(n,))
         prth.start()
