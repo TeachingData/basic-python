@@ -28,6 +28,8 @@ if __name__ == "__main__":
         prth.start()
         prth.join()
 
+    s = 1
     for n in sys.argv[1:]:
-        prth = threading.Thread(target=wait_function, args=(n,))
+        prth = threading.Thread(target=wait_function, args=(n,s,))
         prth.start()
+        s += 2
