@@ -1,5 +1,6 @@
 # very simple script to download and save a simple text file then create a csv from it
 # Typically I would have these in classes but let us start small (and using 2 libraries)
+# This also is meant to show downloading multiple files
 from urllib import request
 import requests
 # The main library we will use is requests but I want to show a little bit of urllib as well
