@@ -22,6 +22,11 @@ while True:
             print("Price must be greater than 0")
     else:
         break
+        
+# check if client added any prices and exit if they didn't
+if not prices:
+    print("Sorry you couldn't find any item you liked but thanks for coming!")
+    quit()
 
 # Print out each item and sumation of all; calculate tax and print out
 # for or foreach loop: for (c-style) loops over each index (using range or *enumerate*)
