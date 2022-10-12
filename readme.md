@@ -18,12 +18,12 @@ workbook and found the solutions that were provided were too elementary. They al
 required a small update in a few places (yeah! type hints) - as is to be expected after 10+ years.
 
 #### Modules
-- Module 1: Basic input and output using the console and standard control structures
-- Module 2: More detailed look at control and data structures with introduction to loops
-- Module 3: File input and output with a Bag of Words project
-- Module 4: Single program at the moment which shows a basic graph (will expand with a game example soon)
-- Module 5: Using parallel operations (threading)
-- Review 1: Classes with type hinting and basic review of math
+- **Module 1**: Basic input and output using the console and standard control structures
+- **Module 2**: More detailed look at control and data structures with introduction to loops
+- **Module 3**: File input and output with a Bag of Words project
+- **Module 4**: Single program at the moment which shows a basic graph (will expand with a game example soon)
+- **Module 5**: Using parallel operations (threading)
+- **Review 1**: Classes with type hinting and basic review of math
 
 ## License
 
