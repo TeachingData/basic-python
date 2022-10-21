@@ -23,6 +23,7 @@ required a small update in a few places (yeah! type hints) - as is to be expecte
 - *Module 3*: File input and output with a Bag of Words project
 - *Module 4*: Single program at the moment which shows a basic graph (will expand with a game example soon)
 - *Module 5*: Using parallel operations (threading)
+- *Network Operations*: Provides examples of Networking tools (sockets with requests and a little automation)
 - *Review 1*: Classes with type hinting and basic review of math
 
 ## License
