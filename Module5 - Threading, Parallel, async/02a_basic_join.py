@@ -1,5 +1,9 @@
 # a simple thread adventure - this version adds both a join and a simple start for examples
 # meant as a basic iteration for understanding and setting up a mediator class and chatroom
+
+#Notes: Made on Linux OS and works with Linux. Run on Windows and will write random characters to file
+#       You have to make names.txt (this file will be made by a seperate function and if it doesn't exists - this should die)
+
 import logging
 import sys
 import threading
