@@ -19,6 +19,10 @@ from urllib.parse import urlparse
 # and functions for dispatch table
 VERSION = 3.04
 
+# these globals would become class params once this made into a class
+site = ""
+query = ""
+
 
 def search_google(searchterms):
     """
@@ -33,9 +37,7 @@ def search_google(searchterms):
 
     for link in soup.findAll("a", href=True):
         if link.h3:
-            #print(link['href'][7:])
-            follow = urlparse(link['href'][7:]).netloc
-            print(follow)
+            follow = urlparse(link['href'][7:]).hostname
             if follow:
                 return f"https://{follow}"
     return ""
@@ -105,11 +107,15 @@ def init() -> str:
     sysargs.add_argument("-q", "--query", help="The term(s) to search for.")
     args = sysargs.parse_args()
 
-    # check that all arguments were passed
+    # check that all arguments were passed and add site as our global variable
+    global site
+    global query
     site = str(args.site).lower()
+
     try:
         if args.query:
-            return sites.get(site)(args.query)
+            query = args.query
+            return sites.get(site)(query)
         else:
             print("You must provide both the site (-s,--site) and query string (-q,--q) to use this program.")
             quit(1)
@@ -138,5 +144,9 @@ def get_response(uri):
 
 if __name__ == '__main__':
     url = init()
-    # students would need to loop over and only print results if search phrase found
-    print(get_response(url))
+    
+    if get_response(url):
+        with open(f"{site}_{query}.txt", "w", encoding="utf-8") as f:
+            f.write(get_response(url))
+    else:
+        print("First link was un-followable or no links found.")
