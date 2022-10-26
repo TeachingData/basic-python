@@ -17,11 +17,11 @@ def readwrite_function(name):
         message = input("Please enter your message: ")
         namesfile.write(f"thread name is {name}\t{message}\n")
 
-def wait_function(name):
+def wait_function(name, s):
     # Now to fix let's wait seperately in a new thread
     # But wait is not really working - it just slows it - so what I really need is an input
     # But I don't want an input.... I need an EVENT! continued with reactive/event based processes
-    time.sleep(5)
+    time.sleep(s)
     with open("names.txt", 'a') as namesfile:
         namesfile.write(f'{time.strftime("%H:%M:%S", time.localtime())}: Thread {name} is done\n')
 
