@@ -15,22 +15,24 @@ print(f"Your card is {sample(values,1)[0]} of {sample(suits,1)[0]}")
 suit = sample(suits, 1)[0]
 used = {suit}
 
-# Checks each suit so we only have to ask it 4 times 
+# Checks each suit so we only have to ask it 4 times
 # (small improvements still possible but leave that as exercise)
 while True:
   if input(f"Is {suit} your suit? ")[0] in {'y', 'Y'}:
-    break;
+    break
+
+  if len(used) >= 4:
+    # all suits guessed so player is lying
+    print("You must have pulled the joker!")
+    exit(0)
 
   while True:
-    if len(used) >= 4:
-      # all suits guessed so player is lying
-      print("You must have pulled the joker!")
-      exit(0)
-  
-    suit = sample(suits, 1)[0]
-    if suit not in used:
-      used.add(suit)
-      break
+      # have to loop because sample may already be in used
+      # this is in-effective, brute-force but sssooo small its not an issue
+      suit = sample(suits, 1)[0]
+      if suit not in used:
+        used.add(suit)
+        break
 
 # Now we have the suit but our old algorithm was just okay
 # It broke it into chunks so we were not checking every value
