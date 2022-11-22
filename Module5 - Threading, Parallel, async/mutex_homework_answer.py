@@ -33,9 +33,10 @@ def thread_function(first_name:str, last_name:str, dob:list):
 
     # critical section so get and release mutex
     mutex.acquire()
-    with open('mutexrules.txt', 'a+') as f:
-        f.write(f"{first_name} {last_name}: {age} years old, born {dob[1]}/{dob[2]}/{dob[0]}\n")
+    with open('mutexrules.txt', 'r+') as f:
+        # switch the read and write if you want
         print(f.read())
+        f.write(f"{first_name} {last_name}: {age} years old, born {dob[1]}/{dob[2]}/{dob[0]}\n")
     mutex.release()
 
 
