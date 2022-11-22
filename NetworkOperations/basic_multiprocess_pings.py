@@ -2,11 +2,14 @@ from multiprocessing import Process
 import os
 import sys 
 
+# run with: python basic_multiprocess_pings.py www.google.com www.python.org www.github.com
+
 # just checking that it works
 #print(f"Number of cpu : {multiprocessing.cpu_count()}")
 
 def get_pings(ip):
-    print(os.system(f'ping {ip}'))
+    # limiting number of pings to 3 -c = count
+    print(os.system(f'ping {ip} -c 3'))
 
 if __name__ == '__main__':
     # Similar to other code we've done we start small
