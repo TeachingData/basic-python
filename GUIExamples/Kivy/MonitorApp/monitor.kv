@@ -1,0 +1,28 @@
+#:kivy 1.8.0
+
+<MenuScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Button:
+            text: 'Display and Log the list of files in a directory'
+            on_press: root.manager.current = 'results'
+        Button:
+            text: 'Diplay and Log Currently Runing Process Total'
+            on_press: root.manager.current = 'results'
+        Button:
+            text: 'Diplay and Log Files in directory structure'
+            on_press: root.manager.current = 'results'
+        Button:
+            text: 'Find and Display process by id or name'
+            on_press: root.manager.current = 'results'
+        Button:
+            text: 'Quit'
+            on_press: app.stop()
+
+<ResultsScreen>:
+    BoxLayout:
+        Button:
+            text: 'Results displayed here'
+        Button:
+            text: 'Back to menu'
+            on_press: root.manager.current = 'menu'
