@@ -12,7 +12,7 @@ Second version shown is what I see from many applicatants (trying to be Pythonic
        If helps (0 and 1 elements cannot be faster than just returning).
        Count the number of times it has to loop over values - there are 3
 
-Third version shown is checkSet: convert to set (sets have to be unique values) and see if same length as list
+Third version (and all others) shown is checkSet: convert to set (sets have to be unique values) and see if same length as list
    if it is: return False (no dup) if its not: return True (at least 1 dup)
    This is much faster and efficient then brute force but a set lookup is around O(1) so ...can get a bit better
    Try and figure out why the last version is faster (its still a set and if I needed the duplicates for stuff I'd use this)
@@ -79,4 +79,14 @@ def individualCheckSet(n_list: List[int]) -> bool:
                     return True
                 else:
                     s.add(e)
+        return False
+   
+# Last one includes both my most memory efficient or fastest (depended on which if used) without working with carrays (numpy) or lambdas
+def checkSetNoVariable(nums: List[int]) -> bool:
+        # this is the fastest by far for set operations: average 545ms for large lists
+        #if len({e for e in nums}) < len(nums):
+        
+        # but I like this best because memory is great - speed not bad
+        if len(set(nums)) < len(nums):
+            return True
         return False
