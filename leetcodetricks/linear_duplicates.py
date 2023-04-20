@@ -48,3 +48,35 @@ def checkSet(n_list: List[int]) -> bool:
         if len(s) < len(n_list):
             return True
         return False
+
+# The next two are variance on set answer - first has slight memory improvement & second has slight speed increase   
+
+def checkSetComprehension(n_list: List[int]) -> bool:
+        # Fun fact - this is the same speed but comprehension makes it use around ~.1Mb less memory
+        # Also removes need fro first if check (cause 0 length would just exit comprhension and 1 len just one pass)
+        s = {e for e in nums}
+
+        if len(s) < len(nums):
+            return True
+        return False
+   
+
+def individualCheckSet(n_list: List[int]) -> bool:
+   # This has same memory usage as checkSet but is a bit faster above - why?
+        if len(nums) <= 1:
+            # if empty or only 1 element cannot have dups
+            return False
+        # Here we will make a set but not initiate it with the list
+        s = set()
+
+        # now we will manually add in each element
+        for e in nums:
+            if not len(s):
+                # 0 = False, anything else = True
+                s.add(e)
+            else:
+                if e in s:
+                    return True
+                else:
+                    s.add(e)
+        return False
