@@ -1,4 +1,4 @@
-# Example Solutions for Workbook
+# Example Solutions for Old Workbook
 
 - Example Answers for problems proposed by The *Python Workbook* by B. Stephenson (**Springer**, 2014)
   - These were used in teaching a Python course
